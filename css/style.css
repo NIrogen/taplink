@@ -9,11 +9,17 @@ body {
 }
 
 .page-wrapper {
+  overflow: hidden;
   max-width: 375px;
   margin: auto;
   background-color: #f7f7f7;
   box-shadow: 0px 0px 30px rgba(128, 127, 127, 0.25);
   border-radius: 20px;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
 }
 
 .header {
@@ -38,4 +44,33 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 100%;
+}
+
+.user {
+  margin-top: -79px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.user-avatar {
+  margin-top: -53px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 1);
+}
+
+.user-name {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.user-description {
+  margin-top: 4px;
+  color: rgba(119, 119, 119, 1);
+  font-size: 13px;
+  font-weight: 400;
 }
