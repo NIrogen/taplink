@@ -74,3 +74,48 @@ body {
   font-size: 13px;
   font-weight: 400;
 }
+
+.card{
+  border-radius: 15px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.button{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: White;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  gap: 10px;
+}
+
+.button.vk{
+  background-color: #4C75A3;
+}
+.button.tg{
+  background-color: #0088CC;
+}
+.button.yt{
+  background-color: #FF0000;
+}
